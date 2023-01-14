@@ -1,0 +1,275 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: #1E1E1E;
+}
+
+
+aside{
+    position: absolute;
+    width: 333px;
+    height: 761px;
+    left: 21px;
+    top: 20px;
+    
+    background: #262626;
+    border-radius: 50px;
+}
+.img1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 222px;
+    height: 222px;
+    left: 56px;
+    top: 75px;
+    border: 2px solid #333333;
+    border-radius: 50%;
+}
+.img1:hover{
+    border: 1px solid blue;
+    width: 222px;
+    height: 222px;
+    border-radius: 50%;
+}
+.heading{
+    position: absolute;
+    width: 132px;
+    height: 36px;
+    left: 105px;
+    top: 276px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.heading:hover{
+    text-decoration: underline blue;
+}
+.para{
+    position: absolute;
+    width: 87px;
+    height: 27px;
+    left: 130px;
+    top: 327px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.para:hover{
+    text-decoration: underline blue;
+}
+
+.para:hover .btn2:hover{
+    text-decoration: underline blue;
+}
+
+.btn1{
+    position: absolute;
+    width: 298px;
+    height: 61px;
+    left: 20px;
+    top: 407px;
+    
+    background: #111111;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+.btn2{
+    position: absolute;
+    width: 298px;
+    height: 61px;
+    left: 20px;
+    top: 492px;
+    color: #FFFFFF;
+    background: #111111;
+    border-radius: 30px;
+}
+.btn3{
+    position: absolute;
+    width: 298px;
+    height: 61px;
+    left: 20px;
+    top: 581px;
+    color: #FFFFFF;
+    background: #111111;
+    border-radius: 30px;
+}
+
+.btn1:hover , .btn2:hover , .btn3:hover{
+    border: 1px solid blue;
+}
+span:hover{
+    text-decoration: underline blue;
+}
+p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+p:hover , a:hover, h2:hover{
+    text-decoration: underline blue;
+}
+
+
+/* hover section  */
+aside:hover{
+    border: 1px solid blue;
+}
+
+
+
+/* rectangle 1 */
+.container{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 985px;
+    height: 411px;
+    left: 374px;
+    top: 19px;
+
+    background: #262626;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.container:hover{
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+p{
+   font-family: 'padding';
+   position: absolute;
+   top: 34px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 29px;
+   color: rgba(255, 255, 255, 0.5);
+   width: 450px;
+   padding-left: 10px;
+}
+a{
+    position: absolute;
+    top: 334px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'padding';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 29px;
+   color: rgba(255, 255, 255, 0.5);
+}
+.title{
+    width: 40%;
+    height: 588px;
+    left: 374px;
+    top: 19px;
+
+}
+h2{
+    padding: 10px;
+    font-family: 'padding';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 29px;
+   color: rgba(255, 255, 255, 0.5);
+   position: absolute;
+   top: -10px;
+   left: 2px;
+}
+.imggg{
+    position: absolute;
+    margin-top: -513px;
+    margin-left: 490px;
+}
+img{
+    position: absolute;
+    height: 312px;
+    top: -14px;
+    width: 475px;
+    border-radius: 5px;
+}
+img:hover{
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+/* Table style */
+
+.tt{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 985px;
+    height: 320px;
+    left: 371px;
+    top: 461px;
+    
+    background: #262626;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.tt:hover{
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+
+table{
+    box-sizing: border-box;
+    width: 815px;
+    height: 220px;
+
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    color: white;
+}
+table th,td{
+    border-collapse: collapse;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.noborder{
+    border-right: none;
+}
+
+.noborder1{
+    border-bottom: none;
+}
+
+th:hover , td:hover{
+    text-decoration: underline 1px blue;
+    cursor: default;
+}
+table:hover{
+    box-sizing: border-box;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    border: 1px solid blue;
+}
+
+
+.headingh2{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 55px;
+    color: white;
+    cursor: default;
+}
+
+td{
+    padding-left: 20px;
+}
